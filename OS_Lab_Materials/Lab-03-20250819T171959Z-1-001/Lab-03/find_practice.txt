@@ -1,0 +1,1 @@
+find . -name '*.c' -type f -exec grep -nHq 'common\.h' {} \; -exec chmod g-w {} \;

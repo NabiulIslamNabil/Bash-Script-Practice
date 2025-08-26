@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# clean slate
+rm -rf demo; mkdir demo
+cd demo
+
+# directories
+mkdir src bin logs archive old
+cd src; touch main.c utils.c helper.c; cd ..
+cd logs; touch app.log error.log access.log; cd ..
+
+# nested
+mkdir -p archive/2025/{Jan,Feb}; touch archive/2025/Jan/jan.txt
+
+# mixed perms
+chmod 700 src; chmod 644 logs/*.log

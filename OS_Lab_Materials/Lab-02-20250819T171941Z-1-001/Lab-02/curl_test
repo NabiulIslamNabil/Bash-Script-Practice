@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "HTTP/1.1 200 OK"
+echo "Date: Wed, 30 Jul 2025 03:42:42 GMT"
+echo "Server: Apache"
+echo "Last-Modified: Tue, 29 Jul 2025 06:27:48 GMT"
+echo "Content-Type: text/html; charset=UTF-8"

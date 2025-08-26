@@ -1,0 +1,17 @@
+#!/bin/bash
+
+read -p "Enter your age: " age
+
+if [[ age -ge 18 ]]; then
+	echo "Adult"
+else
+	echo "Child mode"
+fi
+
+if [[ $1 == 'admin' ]]; then
+	echo "Welcome, ADMIN"
+elif [[ $1 == 'student' && $2 == 'CSE4510' ]]; then
+	echo "Welcome to OS lab"
+else
+	echo "Welcome, $1"
+fi

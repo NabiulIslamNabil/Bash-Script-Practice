@@ -1,0 +1,1 @@
+Subdirectory file with some content to check recursion here.

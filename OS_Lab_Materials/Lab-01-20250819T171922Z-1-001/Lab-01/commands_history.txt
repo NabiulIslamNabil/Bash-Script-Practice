@@ -1,0 +1,123 @@
+    1  ls
+    2  cd Desktop/
+    3  cd ..
+    4  pwd
+    5  cd Downloads/
+    6  ls
+    7  cd ~
+    8  ls -l
+    9  sudo -i
+   10  exit
+   11  ls
+   12  clear
+   13  whoami
+   14  clear
+   15  date
+   16  echo hello
+   17  echo hello world
+   18  echo $PATH
+   19  which echo
+   20  /usr/bin/echo hello world
+   21  pwd
+   22  ls
+   23  cd Downloads/
+   24  pwd
+   25  cd ..
+   26  pwd
+   27  cd .
+   28  cd ./Downloads/
+   29  ls
+   30  cd..
+   31  cd ..
+   32  cd /
+   33  ls
+   34  cd -
+   35  ls 
+   36  ls -l
+   37  cd /
+   38  cd -
+   39  cd /
+   40  cd .
+   41  cd -
+   42  cd
+   43  ls --help
+   44  ls 
+   45  ls -l
+   46  cd Downloads/
+   47  ls -l 
+   48  ls -l -h
+   49  echo --help
+   50  man echo
+   51  man ls
+   52  cd ..
+   53  ls 
+   54  ls -a
+   55  man ls
+   56  ls
+   57  ls Downloads/
+   58  ls /usr/bin
+   59  ls -a
+   60  man pwd
+   61  man cd
+   62  which cd
+   63  clear
+   64  cd Documents/
+   65  ls
+   66  mkdir CSE4510
+   67  man mkdir
+   68  cd CSE4510/
+   69  ls
+   70  mkdir lab1 lab2
+   71  ls
+   72  ls -l
+   73  man mv
+   74  touch file1
+   75  ls
+   76  ls -l
+   77  ls -l 
+   78  man mv
+   79  mv file1 fileA
+   80  ls -l
+   81  mv lab2 labX
+   82  ls -l
+   83  mv labX lab1
+   84  ls -l
+   85  ls lab1/
+   86  cd ..
+   87  ls
+   88  cd CSE4510/
+   89  ls
+   90  cp fileA lab1/
+   91  ls
+   92  ls lab1/
+   93  ls
+   94  mkdir lab100
+   95  cp lab1 lab100/
+   96  cp -r lab1 lab100/
+   97  ls -
+   98  ls -l
+   99  ls lab100/
+  100  ls lab100/lab1/
+  101  cat fileA 
+  102  man cat
+  103  cat fileA 
+  104  cat fileA > out.txt
+  105  cat out.txt 
+  106  echo this is lab1 > out.txt 
+  107  cat out.txt 
+  108  echo Hello World >> out.txt 
+  109  cat out.txt 
+  110  cat < out.txt 
+  115  clear
+  116  cat out.txt 
+  117  cat < out.txt 
+  118  cat < out.txt > out2
+  119  nano out.txt
+  120  cat out.txt
+  121  cat out.txt | head -n3
+  122  cat out.txt | head -n3 > head.txt
+  123  cat head.txt 
+  124  cat out.txt | tail -n3
+  125  cat out.txt | head -n3 | tail -n1
+  126  history
+  127  history > history.txt

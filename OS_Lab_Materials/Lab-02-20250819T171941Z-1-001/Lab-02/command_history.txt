@@ -1,0 +1,255 @@
+    1  ls
+    2  cd Desktop/
+    3  cd ..
+    4  pwd
+    5  cd Downloads/
+    6  ls
+    7  cd ~
+    8  ls -l
+    9  sudo -i
+   10  exit
+   11  ls
+   12  clear
+   13  whoami
+   14  clear
+   15  date
+   16  echo hello
+   17  echo hello world
+   18  echo $PATH
+   19  which echo
+   20  /usr/bin/echo hello world
+   21  pwd
+   22  ls
+   23  cd Downloads/
+   24  pwd
+   25  cd ..
+   26  pwd
+   27  cd .
+   28  cd ./Downloads/
+   29  ls
+   30  cd..
+   31  cd ..
+   32  cd /
+   33  ls
+   34  cd -
+   35  ls 
+   36  ls -l
+   37  cd /
+   38  cd -
+   39  cd /
+   40  cd .
+   41  cd -
+   42  cd
+   43  ls --help
+   44  ls 
+   45  ls -l
+   46  cd Downloads/
+   47  ls -l 
+   48  ls -l -h
+   49  echo --help
+   50  man echo
+   51  man ls
+   52  cd ..
+   53  ls 
+   54  ls -a
+   55  man ls
+   56  ls
+   57  ls Downloads/
+   58  ls /usr/bin
+   59  ls -a
+   60  man pwd
+   61  man cd
+   62  which cd
+   63  clear
+   64  cd Documents/
+   65  ls
+   66  mkdir CSE4510
+   67  man mkdir
+   68  cd CSE4510/
+   69  ls
+   70  mkdir lab1 lab2
+   71  ls
+   72  ls -l
+   73  man mv
+   74  touch file1
+   75  ls
+   76  ls -l
+   77  ls -l 
+   78  man mv
+   79  mv file1 fileA
+   80  ls -l
+   81  mv lab2 labX
+   82  ls -l
+   83  mv labX lab1
+   84  ls -l
+   85  ls lab1/
+   86  cd ..
+   87  ls
+   88  cd CSE4510/
+   89  ls
+   90  cp fileA lab1/
+   91  ls
+   92  ls lab1/
+   93  ls
+   94  mkdir lab100
+   95  cp lab1 lab100/
+   96  cp -r lab1 lab100/
+   97  ls -
+   98  ls -l
+   99  ls lab100/
+  100  ls lab100/lab1/
+  101  cat fileA 
+  102  man cat
+  103  cat fileA 
+  104  cat fileA > out.txt
+  105  cat out.txt 
+  106  echo this is lab1 > out.txt 
+  107  cat out.txt 
+  108  echo Hello World >> out.txt 
+  109  cat out.txt 
+  110  cat < out.txt 
+  111  echo < out.txt
+  112  echo < cat out.txt
+  113  echo < $(cat out.txt)
+  114  celar
+  115  clear
+  116  cat out.txt 
+  117  cat < out.txt 
+  118  cat < out.txt > out2
+  119  nano out.txt
+  120  cat out.txt
+  121  cat out.txt | head -n3
+  122  cat out.txt | head -n3 > head.txt
+  123  cat head.txt 
+  124  cat out.txt | tail -n3
+  125  cat out.txt | head -n3 | tail -n1
+  126  history
+  127  history > history.txt
+  128  pwd
+  129  cd CSE4510_Lab2/
+  130  ls
+  131  cd Lab-02/
+  132  ls
+  133  which echo
+  134  mkdir lab_sub
+  135  cd lab_sub/
+  136  cd ..
+  137  rmdir lab_sub/
+  138  mkdir lab_sub
+  139  ls
+  140  rm lab_sub/
+  141  cd lab_sub/
+  142  touch new_file
+  143  ls
+  144  rm new_file 
+  145  touch new_file
+  146  cd ..
+  147  ls
+  148  ls lab_sub/
+  149  rmdir lab_sub/
+  150  rm -r lab_sub/
+  151  ls -l
+  152  sudo touch file_from_root
+  153  ls -l 
+  154  ls -l
+  155  touch file_from_student
+  156  ls -l
+  157  echo "hello from user" > file_from_student 
+  158  cat file_from_student 
+  159  echo "hello from user" > file_from_root 
+  160  sudo echo "hello from user" > file_from_root 
+  161  man chmod
+  162  sudo chmod go+w file_from_root 
+  163  ls -l
+  164  echo "hello from user" > file_from_root 
+  165  cat file_from_root 
+  166  sudo chmod 644 file_from_root 
+  167  ls -l 
+  168  echo "hello from user" > file_from_root 
+  169  echo "hello from user" | tee file_from_root 
+  170  echo "hello from user" | sudo tee file_from_root 
+  171  curl --head --silent https://cse.uiu.ac.bd
+  172  sudo apt install curl
+  173  nano curl_test
+  174  cat curl_test 
+  175  ./curl_test
+  176  ls -l 
+  177  sh curl_test
+  178  ./curl_test
+  179  sudo chmod u+x curl_test 
+  180  ./curl_test 
+  181  ./curl_test | head -n4 | tail -n1
+  182  l
+  183  ls
+  184  cat create_file_tree 
+  185  ls -l
+  186  sudo chmod u+x create_file_tree 
+  187  ls -l
+  188  ./create_file_tree 
+  189  ls
+  190  ls demo
+  191  tree
+  192  sudo apt install tree
+  193  find demo/ -name "*.log"
+  194  find demo/ -name "*app*"
+  195  find demo -name "*App*"
+  196  find demo -iname "*App*"
+  197  find demo -type f
+  198  find demo -type d
+  199  find demo -path "*/archive/*.txt"
+  200  find demo -path '*/archive/*.txt'
+  201  ls
+  202  cd demo 
+  203  touch dem
+  204  touch demo.txt
+  205  cd ..
+  206  find demo -type f
+  207  find demo -path '*/archive/*.txt'
+  208  find demo -user student
+  209  find demo -user root
+  210  ls -l
+  211  find . -user root
+  212  find . -user student
+  213  find demo -user student
+  214  find demo/ -name '*.log'
+  215  find demo/ -type
+  216  find demo/ -typef 
+  217  find demo/ -type f 
+  218  find demo -maxdepth 2 -type f
+  219  find demo -maxdepth 4 -type f
+  220  find demo -maxdepth 1 -type f
+  221  find demo -name '*.txt' -type f
+  222  touch demo/demo2.txt
+  223  find demo -name '*.txt' -type f
+  224  find demo -name '*.txt' -maxdepth 1 -type f
+  225  find demo -maxdepth 1 -name '*.txt' -type f
+  226  find demo -maxdepth 1 -name '*.txt' -type f -exec rm {} \;
+  227  find demo -maxdepth 1 -name '*.txt' -type f
+  228  find demo -name '*.txt' -type f
+  229  ls
+  230  cat curl_test 
+  231  wc curl_test 
+  232  wc -l curl_test 
+  233  ls
+  234  cd samples_for_grep/
+  235  LS
+  236  ls
+  237  rm samples_for_grep/
+  238  cd samples_for_grep/
+  239  ls
+  240  grep print cpu.c 
+  241  cat cpu.c 
+  242  grep -n print cpu.c 
+  243  grep -n Print cpu.c 
+  244  grep -in Print cpu.c 
+  245  grep linux README.md 
+  246  grep -i linux README.md 
+  247  grep -n printf cpu.c 
+  248  grep -nw printf cpu.c 
+  249  cat common.h 
+  250  grep include common.h
+  251  grep -n include common.h
+  252  grep -nv include common.h
+  253  history 
+  254  history | head 
+  255  history > command_history.txt

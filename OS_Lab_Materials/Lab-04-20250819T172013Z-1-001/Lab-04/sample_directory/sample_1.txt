@@ -1,0 +1,16 @@
+
+Line 1: Starting process                          # No print
+Line 2: The code contains ENV42 which is critical # Match (ENV42)
+Line 3: Unexpected error occurred                 # Line After Match
+Line 4: The secret code is nr3ve                  # Match (nr3ve)
+Line 5: Another line without match                # Line After Match
+Line 6: Beware of ev3nv and ENVR4                 # Match (ev3nv, ENVR4)
+Line 7: This line is unrelated                    # Line After Match
+Line 8: Check for ev3r4 here                      # Match (ev3r4)
+Line 9: Almost done                               # Line After Match
+Line 10: End of sample enrv012                    # No print
+Line 11: Here is an error ev5nr                   # No print (digit '5' not allowed)
+Line 12: Here is env4r5                           # No print (digit '5' not allowed)
+Line 13: The string NR3V4 is uppercase            # Match (NR3V4)
+Line 14: Next line after uppercase match          # Line After Match
+Line 15: Random noise                             # No print
