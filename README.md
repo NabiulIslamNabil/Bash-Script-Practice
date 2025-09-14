@@ -11,6 +11,12 @@ It is a collection of small scripts written while learning Linux command-line au
 - Loops and conditions  
 - Working with `find`, `wc`, and other Linux utilities  
 - Basic automation scripts  
+- CPU Scheduling Algorithms
+- First Come First Serve
+- Shortest Job First
+- Shortest Time Completion First
+- Round Robin 
+- A pdf containing details about the algorithms
 
 ## 🛠️ Requirements
 - A Linux environment (Ubuntu/Debian/Fedora/etc.) or WSL (Windows Subsystem for Linux)  
