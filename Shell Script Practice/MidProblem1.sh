@@ -10,6 +10,6 @@ touch mid_quiz.txt
 chmod 754 mid_quiz.txt
 
 # (c) Run man ls and take the first 10 lines of its output
-# into aid_quizat using piping
+# into mid_quiz.txt using piping
 man ls | head -n 10 > mid_quiz.txt
 
